@@ -27,7 +27,7 @@ $(function() {
   	}
 	};
 	//get chart data
-	$.getJSON('data.json', function(activity) {
+	$.getJSON('https://raw.githubusercontent.com/nathanwaters/expawe/master/data.json', function(activity) {
 		//add awes
 		$('<div class="col-md-6 col-lg-4"><div class="awe-mini" style="background-image:url(assets/img/awes/data.png)"><span>Got data? Help us out :D</span><a href="https://www.reddit.com/r/expawe" target="_blank"></a></div></div>').appendTo('#awes');
 		$.each(activity.awes, function(i, awe) {
