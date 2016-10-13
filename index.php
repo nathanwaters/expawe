@@ -26,7 +26,8 @@
 			<div id="header">
 				<div class="sidebar-brand"><a href="/">EXP<span class="awe">AWE</span></a></div><div class='loading'><div></div><div></div></div>
 				<ul class="top-nav">
-					<li><a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a></li>
+					<li><a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+          <li class="hidden-nav"><a href="https://github.com/nathanwaters/expawe" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>          
 					<li class="hidden-nav"><a href="https://youtube.com/futawe" target="_blank">FUT<span class="awe">AWE</span></a></li>
 				  <!--<li class="hidden-nav"><a href="http://www.wondawe.com/" target="_blank">WOND<span class="awe">AWE</span></a></li>-->
 				</ul>
@@ -62,6 +63,7 @@
 		<script src="assets/js/randomColor.js"></script>
 		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 		<script src="assets/js/expawe.js"></script>
+    <script src="https://use.fontawesome.com/1fd9fe5540.js"></script>
     <script>
       (function(d) {
          var wf = d.createElement('script'), s = d.scripts[0];
