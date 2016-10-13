@@ -195,11 +195,12 @@ ul.subtitle li:not(:first-child), a.toggle-sub, ul.subtitle span:not(.mob-sub) {
 }
 .toggles li { height: 32px }
 .sidebar-brand {
-    display: inline-block;
+    display: none;
     color: #fff;
     font-size: 32px;
     vertical-align: middle;
-        float: left;
+    float: left;
+    opacity: 0;
 }
 .sidebar-brand a {
     color: #fff;
@@ -211,8 +212,9 @@ span.awe { color: #ff50e9 }
     margin: 0;
     list-style: none;
     position: absolute;
-right: 0;
-top: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
 }
 .top-nav li { float: right }
 .top-nav li a {

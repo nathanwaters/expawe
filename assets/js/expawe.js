@@ -16,14 +16,14 @@ $(function() {
 		 families: ['Unica One']
 	 },
 		active: function() {
-			$('#sidebar, #page .container-fluid').stop().animate({
+			$('#sidebar, #page .container-fluid, .sidebar-brand, .top-nav').stop().animate({
 				opacity: 1
 			}, {
         duration: 500,
         complete: function () {
 					$('.loading').hide();
         }
-      });
+      }).fadeIn('fast');
   	}
 	};
 	//get chart data
