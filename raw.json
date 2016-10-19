@@ -29239,8 +29239,8 @@
           ],
           "milestones": [
             [
-              10,
-              "10% error rate"
+              5.1,
+              "Human error rate (5.1%)"
             ],
             [
               1,
@@ -29255,12 +29255,12 @@
           ]
         },
         {
-          "id": "text-to-speech",
-          "title": "Text to Speech",
-          "desc": "Text to speech performance and quality",
+          "id": "speech-recognition",
+          "title": "Speech Recognition",
+          "desc": "Word error rate for speech recognition",
           "past": [
             {
-              "name": "Text to Speech",
+              "name": "Speech Recognition",
               "unit": [
                 "%",
                 "end"
@@ -29274,38 +29274,8 @@
           ],
           "milestones": [
             [
-              10,
-              "10% error rate"
-            ],
-            [
-              1,
-              "1% error rate"
-            ]
-          ],
-          "sources": []
-        },
-        {
-          "id": "spech-to-text",
-          "title": "Speech to Text",
-          "desc": "Speech to text performance and quality",
-          "past": [
-            {
-              "name": "Speech to Text",
-              "unit": [
-                "%",
-                "end"
-              ],
-              "type": "areaspline",
-              "scale": "exp",
-              "future": true,
-              "max": 100,
-              "data": []
-            }
-          ],
-          "milestones": [
-            [
-              10,
-              "10% error rate"
+              5.9,
+              "Human error rate (5.9%)"
             ],
             [
               1,
@@ -32002,6 +31972,26 @@
       "id": "energy",
       "category": "Energy",
       "charts": [
+        {
+          "id": "nuclear",
+          "title": "Nuclear",
+          "desc": "Growth in nuclear efficieny",
+          "past": [
+            {
+              "name": "Nuclear",
+              "unit": [
+                "",
+                "end"
+              ],
+              "type": "areaspline",
+              "scale": "exp",
+              "future": true,
+              "max": false,
+              "data": []
+            }
+          ],
+          "sources": []
+        },
         {
           "id": "solar",
           "title": "Solar",
