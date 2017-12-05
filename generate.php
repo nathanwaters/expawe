@@ -63,9 +63,10 @@ foreach($json['data'] as $j => $categories) {
           );
           $i = $v = $newest + 1;
           $endYear = date('Y', strtotime('+20 years'));
+          $passOnce = 0;
           while ($i < $endYear) {
             if ($scale == 'exp') {
-              $futureVal = $coef[0] * pow($coef[1], $v - $oldest);
+              $futureVal = $coef[0] * pow($coef[1], $v - $oldest - 2); //tweak to make output work... need a exponential library
             }
             else
             if ($scale == 'lin') {
